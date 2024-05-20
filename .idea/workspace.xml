@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f38c29d8-d053-4b7b-886c-67534fec7243" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MicroRPC-framework/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/client/RpcNettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/client/RpcNettyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/server/RpcNettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/server/RpcNettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroRPC-exampleClient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroRPC-exampleClient/src/main/java/com/banana/example/RpcClientMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroRPC-exampleClient/src/main/java/com/banana/example/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroRPC-exampleClient/src/test/java/com/banana/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/annotations/RpcCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/proxy/RpcProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/spring/RpcBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroRPC-testApi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroRPC-testApi/src/main/java/com/test/api/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroRPC-testApi/src/test/java/com/test/api/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/client/RpcNettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/client/RpcNettyClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/banana/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/banana/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/test/java/com/banana/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,13 +57,27 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "e31446eedb31c590e9f1fde68cede3bd"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RpcNettyClient">
+  <component name="RunManager" selected="Application.com.banana.example.RpcClientMain">
+    <configuration name="RpcClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.RpcClientMain" />
+      <module name="MicroRPC-exampleClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RpcNettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.banana.netty.client.RpcNettyClient" />
       <module name="MicroRPC-framework" />
@@ -86,8 +104,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.banana.example.RpcClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.banana.example.RpcClientMain" />
+      <module name="MicroRPC-exampleClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.banana.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.banana.example.RpcClientMain" />
+        <item itemvalue="Application.RpcClientMain" />
         <item itemvalue="Application.RpcNettyClient" />
         <item itemvalue="Application.RpcNettyServer" />
       </list>
@@ -101,7 +134,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715849485793</updated>
-      <workItem from="1715849487347" duration="15120000" />
+      <workItem from="1715849487347" duration="15254000" />
+      <workItem from="1716029095613" duration="1421000" />
+      <workItem from="1716087682820" duration="4871000" />
+      <workItem from="1716170279964" duration="6567000" />
     </task>
     <servers />
   </component>

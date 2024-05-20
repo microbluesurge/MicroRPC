@@ -7,6 +7,8 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>MicroRPC-framework</module>
+    <module>MicroRPC-exampleClient</module>
+    <module>MicroRPC-testApi</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -27,6 +29,11 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
+      <version>5.3.24</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-core</artifactId>
       <version>5.3.24</version>
     </dependency>
     <dependency>
