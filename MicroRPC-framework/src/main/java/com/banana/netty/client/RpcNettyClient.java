@@ -15,7 +15,8 @@ import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 
-import java.util.Arrays;
+import java.util.*;
+import java.util.concurrent.FutureTask;
 import java.util.concurrent.TimeUnit;
 
 @Slf4j
@@ -48,8 +49,8 @@ public class RpcNettyClient {
     @SneakyThrows
     public Object sendRpcRequest(String str) {
         ChannelFuture future = bootstrap.connect("192.168.136.1", 11451).sync();
+//        future.s
         future.channel().writeAndFlush(str);
-
         return null;
     }
 

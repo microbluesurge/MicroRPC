@@ -1,4 +1,4 @@
-package com.banana.example;
+package com.apple.example;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
