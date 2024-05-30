@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f38c29d8-d053-4b7b-886c-67534fec7243" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/dto/RpcCallRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/utils/SingletenUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleClient/src/main/java/com/banana/example/RpcClientMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleClient/src/main/java/com/apple/example/RpcClientMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleClient/src/main/java/com/banana/example/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleClient/src/main/java/com/apple/example/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleClient/src/test/java/com/banana/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleClient/src/test/java/com/apple/example/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/annotations/RpcCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/annotations/RpcCall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/client/RpcNettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/client/RpcNettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/dto/RpcCallRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/dto/RpcCallRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/proxy/RpcProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/proxy/RpcProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -161,7 +156,9 @@
       <workItem from="1716706418036" duration="854000" />
       <workItem from="1716779739027" duration="2175000" />
       <workItem from="1716814868808" duration="442000" />
-      <workItem from="1716983316284" duration="3826000" />
+      <workItem from="1716983316284" duration="4218000" />
+      <workItem from="1716995026235" duration="167000" />
+      <workItem from="1717033072985" duration="8394000" />
     </task>
     <servers />
   </component>

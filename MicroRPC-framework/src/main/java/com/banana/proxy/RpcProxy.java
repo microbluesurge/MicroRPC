@@ -4,6 +4,7 @@ import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONReader;
 import com.banana.netty.dto.RpcCallRequest;
 import com.banana.netty.client.RpcNettyClient;
+import com.banana.utils.SingletenUtil;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 
@@ -19,8 +20,9 @@ public class RpcProxy implements InvocationHandler {
     private static RpcNettyClient client;
 
     public RpcProxy() {
-        //TODO : 改成单例类获取
-        client  =new RpcNettyClient();
+        //TODO : 还没测
+        client = SingletenUtil.getInstance(RpcNettyClient.class);
+//        client  = new RpcNettyClient();
     }
 
     @SuppressWarnings("unchecked")
