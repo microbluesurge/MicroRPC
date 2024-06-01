@@ -9,6 +9,7 @@
     <module>MicroRPC-framework</module>
     <module>MicroRPC-exampleClient</module>
     <module>MicroRPC-testApi</module>
+      <module>MicroRpc-exampleServer</module>
   </modules>
   <packaging>pom</packaging>
 

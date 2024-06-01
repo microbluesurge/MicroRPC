@@ -2,6 +2,7 @@ package com.banana.spring;
 
 
 import com.banana.annotations.RpcCall;
+import com.banana.annotations.RpcService;
 import com.banana.proxy.RpcProxy;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
@@ -37,6 +38,25 @@ public class RpcBeanPostProcessor implements BeanPostProcessor {
                     e.printStackTrace();
                 }
             }
+        }
+        return bean;
+    }
+
+
+    @SneakyThrows
+    @Override
+    public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
+        if (bean.getClass().isAnnotationPresent(RpcService.class)) {
+            System.out.println(bean.getClass().getName() + " hhh " + RpcService.class.getCanonicalName());
+            log.info("[{}] is annotated with  [{}]", bean.getClass().getName(), RpcService.class.getCanonicalName());
+            // get RpcService annotation
+            RpcService rpcService = bean.getClass().getAnnotation(RpcService.class);
+            // build RpcServiceProperties
+//            RpcServiceConfig rpcServiceConfig = RpcServiceConfig.builder()
+//                    .group(rpcService.group())
+//                    .version(rpcService.version())
+//                    .service(bean).build();
+//            serviceProvider.publishService(rpcServiceConfig);
         }
         return bean;
     }

@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f38c29d8-d053-4b7b-886c-67534fec7243" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/utils/SingletenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/annotations/RpcService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroRpc-exampleServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroRpc-exampleServer/src/main/java/com/orange/RpcServerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroRpc-exampleServer/src/main/java/com/orange/TestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroRpc-exampleServer/src/test/java/org/example/RpcServerMainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/dto/RpcCallRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/dto/RpcCallRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/proxy/RpcProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/proxy/RpcProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/spring/RpcBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/spring/RpcBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/utils/SingletenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/utils/SingletenUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -40,26 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;fd736e604a0600b7c32ca0705d329b86&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "spring.configuration.checksum": "fd736e604a0600b7c32ca0705d329b86"
   }
-}</component>
-  <component name="RunManager" selected="Application.com.apple.example.RpcClientMain">
+}]]></component>
+  <component name="RunManager" selected="Application.RpcServerMain">
     <configuration name="RpcClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.RpcClientMain" />
       <module name="MicroRPC-exampleClient" />
@@ -86,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RpcNettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.banana.netty.server.RpcNettyServer" />
-      <module name="MicroRPC-framework" />
+    <configuration name="RpcServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.orange.RpcServerMain" />
+      <module name="MicroRpc-exampleServer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.banana.netty.server.*" />
+          <option name="PATTERN" value="com.orange.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RpcServerMain" />
         <item itemvalue="Application.com.apple.example.RpcClientMain" />
         <item itemvalue="Application.com.banana.example.RpcClientMain" />
         <item itemvalue="Application.RpcClientMain" />
         <item itemvalue="Application.RpcNettyClient" />
-        <item itemvalue="Application.RpcNettyServer" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +164,8 @@
       <workItem from="1716814868808" duration="442000" />
       <workItem from="1716983316284" duration="4218000" />
       <workItem from="1716995026235" duration="167000" />
-      <workItem from="1717033072985" duration="8394000" />
+      <workItem from="1717033072985" duration="8444000" />
+      <workItem from="1717230017418" duration="6236000" />
     </task>
     <servers />
   </component>
