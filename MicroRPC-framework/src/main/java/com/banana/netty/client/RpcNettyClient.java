@@ -1,5 +1,7 @@
 package com.banana.netty.client;
 
+import com.alibaba.fastjson2.JSON;
+import com.banana.netty.dto.RpcCallRequest;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
@@ -15,6 +17,7 @@ import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 
+import java.net.InetAddress;
 import java.util.*;
 import java.util.concurrent.FutureTask;
 import java.util.concurrent.TimeUnit;
@@ -51,6 +54,16 @@ public class RpcNettyClient {
         ChannelFuture future = bootstrap.connect("192.168.136.1", 11451).sync();
 //        future.s
         future.channel().writeAndFlush(str);
+        return null;
+    }
+
+
+    @SneakyThrows
+    public Object sendRpcRequest(RpcCallRequest request) {
+
+        ChannelFuture future = bootstrap.connect(InetAddress.getLocalHost().getHostAddress(), 11451).sync();
+//        future.s
+        ChannelFuture resultFuture = future.channel().writeAndFlush(JSON.toJSONString(request));
         return null;
     }
 

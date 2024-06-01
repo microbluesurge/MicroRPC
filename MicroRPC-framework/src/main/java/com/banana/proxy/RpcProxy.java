@@ -34,28 +34,28 @@ public class RpcProxy implements InvocationHandler {
     @SneakyThrows
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) {
-        System.out.println("this is the proxy logic...");
-        System.out.println("method to call is " + method.getName());
-        System.out.println("args num is " + args.length);
-        for(Object arg : args) {
-            System.out.println("args is " + arg);
-        }
+//        System.out.println("this is the proxy logic...");
+//        System.out.println("method to call is " + method.getName());
+        System.out.println(method.getDeclaringClass().getName());
+//        for(Object arg : args) {
+//            System.out.println("args is " + arg);
+//        }
         RpcCallRequest request = RpcCallRequest.builder()
                 .methodName(method.getName())
                 .interfaceName(method.getDeclaringClass().getName())
                 .paramTypes(method.getParameterTypes())
                 .params(args)
                 .build();
-        try {
-            System.out.println(request);
-            String str = JSON.toJSONString(request);
-            RpcCallRequest rr = JSON.parseObject(str, RpcCallRequest.class, JSONReader.Feature.SupportClassForName);
-            System.out.println(" rr " + rr);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        try {
+//            System.out.println(request);
+//            String str = JSON.toJSONString(request);
+//            RpcCallRequest rr = JSON.parseObject(str, RpcCallRequest.class, JSONReader.Feature.SupportClassForName);
+//            System.out.println(" rr " + rr);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
 
-//        client.sendRpcRequest("  ");
+        client.sendRpcRequest(request);
         return null;
     }
 

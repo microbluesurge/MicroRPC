@@ -1,9 +1,12 @@
 package com.banana.spring;
 
 
+import com.banana.P2pServiceProvider;
+import com.banana.ServiceProvider;
 import com.banana.annotations.RpcCall;
 import com.banana.annotations.RpcService;
 import com.banana.proxy.RpcProxy;
+import com.banana.utils.SingletenUtil;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeansException;
@@ -16,6 +19,12 @@ import java.lang.reflect.Field;
 @Component
 public class RpcBeanPostProcessor implements BeanPostProcessor {
 
+
+    private final ServiceProvider provider;
+
+    public RpcBeanPostProcessor() {
+        provider = SingletenUtil.getInstance(P2pServiceProvider.class);
+    }
 
 
 //    @SneakyThrows
@@ -51,6 +60,7 @@ public class RpcBeanPostProcessor implements BeanPostProcessor {
             log.info("[{}] is annotated with  [{}]", bean.getClass().getName(), RpcService.class.getCanonicalName());
             // get RpcService annotation
             RpcService rpcService = bean.getClass().getAnnotation(RpcService.class);
+            provider.addService(bean);
             // build RpcServiceProperties
 //            RpcServiceConfig rpcServiceConfig = RpcServiceConfig.builder()
 //                    .group(rpcService.group())
