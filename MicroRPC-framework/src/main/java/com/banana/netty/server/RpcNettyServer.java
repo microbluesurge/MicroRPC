@@ -17,6 +17,10 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
 import java.net.InetAddress;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 @Slf4j
 @Component
@@ -80,9 +84,10 @@ public class RpcNettyServer {
     }
 
     public static void main(String[] args) {
+        //test
         RpcNettyServer rpcNettyServer = new RpcNettyServer();
         rpcNettyServer.start();
-    }
 
+    }
 
 }
