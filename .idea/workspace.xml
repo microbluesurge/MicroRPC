@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f38c29d8-d053-4b7b-886c-67534fec7243" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/client/RpcNettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/client/RpcNettyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/dto/RpcCallRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/dto/RpcCallRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/server/RpcNettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/server/RpcNettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleClient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleClient/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-testApi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-testApi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRpc-exampleServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleServer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRpc-exampleServer/src/main/java/com/orange/RpcServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleServer/src/main/java/com/orange/RpcServerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRpc-exampleServer/src/main/java/com/orange/TestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleServer/src/main/java/com/orange/TestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRpc-exampleServer/src/test/java/org/example/RpcServerMainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleServer/src/test/java/org/example/RpcServerMainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +42,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2gXglGRMDkLIw4Bf374qZD5wZiy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,16 +60,19 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;p2pRPC&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Software/MyJava11&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;368261764b7a90c0d7cbe7778b0a392a&quot;
   }
 }</component>
@@ -89,7 +105,7 @@
     </configuration>
     <configuration name="RpcServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.orange.RpcServerMain" />
-      <module name="MicroRpc-exampleServer" />
+      <module name="MicroRPC-exampleServer" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.orange.*" />
@@ -100,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.apple.example.RpcClientMain" type="Application" factoryName="Application" nameIsGenerated="true">
+    <configuration name="com.apple.example.RpcClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.apple.example.RpcClientMain" />
       <module name="MicroRPC-exampleClient" />
       <extension name="coverage">
@@ -128,6 +144,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.apple.example.RpcClientMain" />
         <item itemvalue="Application.RpcServerMain" />
         <item itemvalue="Application.RpcNettyClient" />
         <item itemvalue="Application.com.banana.example.RpcClientMain" />
