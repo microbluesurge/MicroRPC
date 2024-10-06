@@ -19,8 +19,8 @@ public class RpcProxy implements InvocationHandler {
 
     private static RpcNettyClient client;
 
+//    public Object tar;
     public RpcProxy() {
-        //TODO : 还没测
         client = SingletenUtil.getInstance(RpcNettyClient.class);
 //        client  = new RpcNettyClient();
     }
@@ -46,15 +46,8 @@ public class RpcProxy implements InvocationHandler {
                 .paramTypes(method.getParameterTypes())
                 .params(args)
                 .build();
-//        try {
-//            System.out.println(request);
-//            String str = JSON.toJSONString(request);
-//            RpcCallRequest rr = JSON.parseObject(str, RpcCallRequest.class, JSONReader.Feature.SupportClassForName);
-//            System.out.println(" rr " + rr);
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-
+        //logs.....
+//        tar.getClass().getMethod(method.getName(), method.getParameterTypes()).invoke(tar, args);
         client.sendRpcRequest(request);
         return null;
     }

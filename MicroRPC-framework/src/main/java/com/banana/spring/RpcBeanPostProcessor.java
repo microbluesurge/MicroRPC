@@ -48,27 +48,37 @@ public class RpcBeanPostProcessor implements BeanPostProcessor {
                 }
             }
         }
-        return bean;
-    }
 
 
-    @SneakyThrows
-    @Override
-    public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
         if (bean.getClass().isAnnotationPresent(RpcService.class)) {
             System.out.println(bean.getClass().getName() + " hhh " + RpcService.class.getCanonicalName());
             log.info("[{}] is annotated with  [{}]", bean.getClass().getName(), RpcService.class.getCanonicalName());
             // get RpcService annotation
             RpcService rpcService = bean.getClass().getAnnotation(RpcService.class);
             provider.addService(bean);
-            // build RpcServiceProperties
-//            RpcServiceConfig rpcServiceConfig = RpcServiceConfig.builder()
-//                    .group(rpcService.group())
-//                    .version(rpcService.version())
-//                    .service(bean).build();
-//            serviceProvider.publishService(rpcServiceConfig);
         }
+        System.out.println("111222hhh" + beanName);
         return bean;
     }
+
+
+//    @SneakyThrows
+//    @Override
+//    public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
+//        if (bean.getClass().isAnnotationPresent(RpcService.class)) {
+//            System.out.println(bean.getClass().getName() + " hhh " + RpcService.class.getCanonicalName());
+//            log.info("[{}] is annotated with  [{}]", bean.getClass().getName(), RpcService.class.getCanonicalName());
+//            // get RpcService annotation
+//            RpcService rpcService = bean.getClass().getAnnotation(RpcService.class);
+//            provider.addService(bean);
+//            // build RpcServiceProperties
+////            RpcServiceConfig rpcServiceConfig = RpcServiceConfig.builder()
+////                    .group(rpcService.group())
+////                    .version(rpcService.version())
+////                    .service(bean).build();
+////            serviceProvider.publishService(rpcServiceConfig);
+//        }
+//        return bean;
+//    }
 
 }

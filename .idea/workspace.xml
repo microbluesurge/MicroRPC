@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f38c29d8-d053-4b7b-886c-67534fec7243" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f38c29d8-d053-4b7b-886c-67534fec7243" name="Changes" comment="更改pom.xml">
+      <change afterPath="$PROJECT_DIR$/MicroRPC-testApi/src/main/java/com/test/api/ChengyuanService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleClient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleClient/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-testApi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-testApi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRpc-exampleServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRpc-exampleServer/src/main/java/com/orange/RpcServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleServer/src/main/java/com/orange/RpcServerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRpc-exampleServer/src/main/java/com/orange/TestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleServer/src/main/java/com/orange/TestServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRpc-exampleServer/src/test/java/org/example/RpcServerMainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleServer/src/test/java/org/example/RpcServerMainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleClient/src/main/java/com/apple/example/RpcClientMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleClient/src/main/java/com/apple/example/RpcClientMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleClient/src/main/java/com/apple/example/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleClient/src/main/java/com/apple/example/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/ServiceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/ServiceProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/dto/RpcCallRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/dto/RpcCallRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/proxy/RpcProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/proxy/RpcProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/spring/RpcBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/spring/RpcBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/utils/SingletenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/utils/SingletenUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -188,6 +186,15 @@
       <workItem from="1718622583384" duration="664000" />
       <workItem from="1718767912997" duration="8000" />
     </task>
+    <task id="LOCAL-00001" summary="更改pom.xml当中的warning">
+      <option name="closed" value="true" />
+      <created>1727443282533</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727443282533</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,5 +210,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更改pom.xml当中的warning" />
+    <MESSAGE value="更改pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改pom.xml" />
   </component>
 </project>

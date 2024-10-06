@@ -4,11 +4,6 @@ import com.banana.netty.server.RpcNettyServer;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
-/**
- * Hello world!
- *
- */
-
 
 @ComponentScan(value = {"com.orange", "com.banana"})
 public class RpcServerMain
