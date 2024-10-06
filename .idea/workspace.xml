@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b02a8269-9229-4d55-8372-ff84a3de372f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MicroRPC-exampleServer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MicroRPC-testApi/src/main/java/com/test/api/ChengyuanService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleClient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleClient/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleClient/src/main/java/com/apple/example/RpcClientMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleClient/src/main/java/com/apple/RpcClientMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleClient/src/main/java/com/apple/example/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleClient/src/main/java/com/apple/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleClient/src/test/java/com/apple/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleClient/src/test/java/com/apple/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/ServiceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/ServiceProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/dto/RpcCallRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/dto/RpcCallRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/proxy/RpcProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/proxy/RpcProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/spring/RpcBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/spring/RpcBeanPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/utils/SingletenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/utils/SingletenUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-testApi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-testApi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRpc-exampleServer/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRpc-exampleServer/src/main/java/com/orange/RpcServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleServer/src/main/java/com/orange/RpcServerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRpc-exampleServer/src/main/java/com/orange/TestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleServer/src/main/java/com/orange/TestServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRpc-exampleServer/src/test/java/org/example/RpcServerMainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleServer/src/test/java/org/example/RpcServerMainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
