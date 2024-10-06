@@ -16,7 +16,21 @@ import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 
 import java.net.InetAddress;
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+
+import java.util.Deque;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+
+import java.util.Set;
+
 import java.util.concurrent.TimeUnit;
+
+import java.util.AbstractMap.SimpleEntry;
+import java.util.stream.Collectors;
 
 @Slf4j
 public class RpcNettyClient {
@@ -24,6 +38,7 @@ public class RpcNettyClient {
     private final EventLoopGroup eventLoopGroup;
 
 
+    Map<Integer, Integer> mm = new HashMap<>();
     public RpcNettyClient() {
         bootstrap = new Bootstrap();
         eventLoopGroup = new NioEventLoopGroup();
@@ -63,10 +78,6 @@ public class RpcNettyClient {
         return null;
     }
 
-    public static void main(String[] args) {
-        RpcNettyClient rpcNettyClient = new RpcNettyClient();
-        rpcNettyClient.sendRpcRequest("hhhh lalalalal");
-    }
 
 
 

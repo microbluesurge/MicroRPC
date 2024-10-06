@@ -7,8 +7,6 @@
     <list default="true" id="f38c29d8-d053-4b7b-886c-67534fec7243" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/client/RpcNettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/client/RpcNettyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/dto/RpcCallRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/dto/RpcCallRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/server/RpcNettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/server/RpcNettyServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +29,8 @@
     <setting file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.109.Final/netty-transport-4.1.109.Final.jar!/io/netty/bootstrap/Bootstrap.class" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../../java/jdk11/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../../java/jdk11/lib/src.zip!/java.base/java/util/concurrent/FutureTask.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../java/jdk11/lib/src.zip!/java.base/java/util/concurrent/locks/Lock.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../java/jdk11/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,26 +41,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;368261764b7a90c0d7cbe7778b0a392a&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "com.alibabacloud.intellij.config.AccountConfigurable",
+    "spring.configuration.checksum": "368261764b7a90c0d7cbe7778b0a392a"
   }
-}</component>
-  <component name="RunManager" selected="Application.com.apple.example.RpcClientMain">
+}]]></component>
+  <component name="RunManager" selected="Application.RpcNettyClient">
     <configuration name="RpcClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.RpcClientMain" />
       <module name="MicroRPC-exampleClient" />
@@ -128,14 +128,17 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RpcServerMain" />
         <item itemvalue="Application.RpcNettyClient" />
+        <item itemvalue="Application.RpcServerMain" />
         <item itemvalue="Application.com.banana.example.RpcClientMain" />
         <item itemvalue="Application.RpcClientMain" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f38c29d8-d053-4b7b-886c-67534fec7243" name="Changes" comment="" />
@@ -170,6 +173,17 @@
       <workItem from="1718551576016" duration="5318000" />
       <workItem from="1718622583384" duration="664000" />
       <workItem from="1718767912997" duration="8000" />
+      <workItem from="1718803319479" duration="767000" />
+      <workItem from="1722687553061" duration="3600000" />
+      <workItem from="1722860618628" duration="6255000" />
+      <workItem from="1723811147840" duration="6773000" />
+      <workItem from="1723897228869" duration="8528000" />
+      <workItem from="1727237116349" duration="4231000" />
+      <workItem from="1727332635322" duration="3585000" />
+      <workItem from="1727436952517" duration="4846000" />
+      <workItem from="1727491108340" duration="3599000" />
+      <workItem from="1728220522010" duration="202000" />
+      <workItem from="1728220747298" duration="1694000" />
     </task>
     <servers />
   </component>
@@ -186,5 +200,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
