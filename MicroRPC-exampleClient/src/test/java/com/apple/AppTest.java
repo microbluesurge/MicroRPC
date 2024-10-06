@@ -1,4 +1,4 @@
-package com.apple.example;
+package com.apple;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

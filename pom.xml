@@ -9,7 +9,7 @@
     <module>MicroRPC-framework</module>
     <module>MicroRPC-exampleClient</module>
     <module>MicroRPC-testApi</module>
-      <module>MicroRpc-exampleServer</module>
+      <module>MicroRPC-exampleServer</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -20,7 +20,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <!-- <version>3.7.0</version> -->
+         <version>3.7.0</version>
         <configuration>
           <source>11</source>
           <target>11</target>

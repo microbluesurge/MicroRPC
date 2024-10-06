@@ -4,9 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f38c29d8-d053-4b7b-886c-67534fec7243" name="Changes" comment="">
+    <list default="true" id="b02a8269-9229-4d55-8372-ff84a3de372f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MicroRPC-exampleServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroRPC-testApi/src/main/java/com/test/api/ChengyuanService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/client/RpcNettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/client/RpcNettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleClient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleClient/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleClient/src/main/java/com/apple/example/RpcClientMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleClient/src/main/java/com/apple/RpcClientMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleClient/src/main/java/com/apple/example/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleClient/src/main/java/com/apple/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleClient/src/test/java/com/apple/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleClient/src/test/java/com/apple/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/ServiceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/ServiceProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/dto/RpcCallRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/dto/RpcCallRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/proxy/RpcProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/proxy/RpcProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/spring/RpcBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/spring/RpcBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/utils/SingletenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/utils/SingletenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRPC-testApi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-testApi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRpc-exampleServer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRpc-exampleServer/src/main/java/com/orange/RpcServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleServer/src/main/java/com/orange/RpcServerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRpc-exampleServer/src/main/java/com/orange/TestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleServer/src/main/java/com/orange/TestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroRpc-exampleServer/src/test/java/org/example/RpcServerMainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroRPC-exampleServer/src/test/java/org/example/RpcServerMainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -35,6 +52,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2gXglGRMDkLIw4Bf374qZD5wZiy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,50 +66,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
+    "last_opened_file_path": "D:/WorkSpace/MicroRPC/MicroRpc-exampleServer",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "com.alibabacloud.intellij.config.AccountConfigurable",
-    "spring.configuration.checksum": "368261764b7a90c0d7cbe7778b0a392a"
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RpcNettyClient">
-    <configuration name="RpcClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.RpcClientMain" />
-      <module name="MicroRPC-exampleClient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RpcNettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.banana.netty.client.RpcNettyClient" />
-      <module name="MicroRPC-framework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.banana.netty.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="ECS on Alibaba Cloud.CloudRPCServer">
     <configuration name="RpcServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.orange.RpcServerMain" />
       <module name="MicroRpc-exampleServer" />
@@ -100,7 +87,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.apple.example.RpcClientMain" type="Application" factoryName="Application" nameIsGenerated="true">
+    <configuration name="com.apple.example.RpcClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.apple.example.RpcClientMain" />
       <module name="MicroRPC-exampleClient" />
       <extension name="coverage">
@@ -113,25 +100,145 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.banana.example.RpcClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.banana.example.RpcClientMain" />
-      <module name="MicroRPC-exampleClient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.banana.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="CloudRPCClient" type="ECS_RUN_CONFIGRATION" factoryName="Ecs configuration factory" singleton="false">
+      <option name="accountModel" />
+      <option name="accountModels">
+        <list>
+          <AccountModel>
+            <option name="ak" value="LTAI5tS4JjYaKYbq9yd8ynWX" />
+            <option name="profileName" value="Default" />
+            <option name="secret" value="33gySuqhN6RBLIj6UIaNM1eTTgRM3H" />
+            <option name="show" value="false" />
+          </AccountModel>
+        </list>
+      </option>
+      <option name="address" />
+      <option name="afterCommand" value="sh /root/microrpc/run_microrpc.sh" />
+      <option name="alreadyReset" value="true" />
+      <option name="autoOpen" value="false" />
+      <option name="beforeCommand" value="" />
+      <option name="defaultTabIdx" value="0" />
+      <option name="ecsInstance">
+        <EcsInstance>
+          <option name="OSType" />
+          <option name="instanceId" />
+          <option name="instanceName" />
+          <option name="netType" />
+          <option name="privateIps" />
+          <option name="publicIps" />
+          <option name="regionId" />
+          <option name="tags" />
+        </EcsInstance>
+      </option>
+      <option name="ecsInstances">
+        <list>
+          <EcsInstance>
+            <option name="OSType" value="linux" />
+            <option name="instanceId" value="i-0jl5vi76jqroh0wqprsu" />
+            <option name="instanceName" value="iZ0jl5vi76jqroh0wqprsuZ" />
+            <option name="netType" value="vpc" />
+            <option name="privateIps" value="172.25.197.6" />
+            <option name="publicIps" value="39.101.68.221" />
+            <option name="regionId" value="cn-wulanchabu" />
+            <option name="tags">
+              <list>
+                <Tag>
+                  <option name="tagKey" value="ecs" />
+                  <option name="tagValue" value="trial" />
+                </Tag>
+              </list>
+            </option>
+          </EcsInstance>
+        </list>
+      </option>
+      <option name="hostIds" />
+      <option name="hostTagId" value="0" />
+      <option name="location" value=" /root/microrpc/client" />
+      <option name="pathOrUrl" value="D:\WorkSpace\MicroRPC\target\MicroRPC-1.0-SNAPSHOT.pom" />
+      <option name="tagId" value="0" />
+      <option name="terminalCommand" />
+      <option name="type" value="ECS" />
+      <option name="uploadType" value="MAVEN" />
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/../MicroRPC\pom.xml" goal="clean install" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/MicroRPC-exampleClient/pom.xml" goal="clean package" />
       </method>
     </configuration>
+    <configuration name="CloudRPCServer" type="ECS_RUN_CONFIGRATION" factoryName="Ecs configuration factory" singleton="false">
+      <option name="accountModel" />
+      <option name="accountModels">
+        <list>
+          <AccountModel>
+            <option name="ak" value="LTAI5tS4JjYaKYbq9yd8ynWX" />
+            <option name="profileName" value="Default" />
+            <option name="secret" value="33gySuqhN6RBLIj6UIaNM1eTTgRM3H" />
+            <option name="show" value="false" />
+          </AccountModel>
+        </list>
+      </option>
+      <option name="address" />
+      <option name="afterCommand" value="sh /root/microrpc/run_microrpc.sh" />
+      <option name="alreadyReset" value="true" />
+      <option name="autoOpen" value="false" />
+      <option name="beforeCommand" value="" />
+      <option name="defaultTabIdx" value="0" />
+      <option name="ecsInstance">
+        <EcsInstance>
+          <option name="OSType" />
+          <option name="instanceId" />
+          <option name="instanceName" />
+          <option name="netType" />
+          <option name="privateIps" />
+          <option name="publicIps" />
+          <option name="regionId" />
+          <option name="tags" />
+        </EcsInstance>
+      </option>
+      <option name="ecsInstances">
+        <list>
+          <EcsInstance>
+            <option name="OSType" value="linux" />
+            <option name="instanceId" value="i-0jl5vi76jqroh0wqprsu" />
+            <option name="instanceName" value="iZ0jl5vi76jqroh0wqprsuZ" />
+            <option name="netType" value="vpc" />
+            <option name="privateIps" value="172.25.197.6" />
+            <option name="publicIps" value="39.101.68.221" />
+            <option name="regionId" value="cn-wulanchabu" />
+            <option name="tags">
+              <list>
+                <Tag>
+                  <option name="tagKey" value="ecs" />
+                  <option name="tagValue" value="trial" />
+                </Tag>
+              </list>
+            </option>
+          </EcsInstance>
+        </list>
+      </option>
+      <option name="hostIds" />
+      <option name="hostTagId" value="0" />
+      <option name="location" value=" /root/microrpc/server" />
+      <option name="pathOrUrl" value="D:\WorkSpace\MicroRPC\target\MicroRPC-1.0-SNAPSHOT.pom" />
+      <option name="tagId" value="0" />
+      <option name="terminalCommand" />
+      <option name="type" value="ECS" />
+      <option name="uploadType" value="MAVEN" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/../MicroRPC\pom.xml" goal="clean install" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="D:\WorkSpace\MicroRPC\MicroRpc-exampleServer/pom.xml" goal="clean package" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.RpcServerMain" />
+      <item itemvalue="Application.com.apple.example.RpcClientMain" />
+      <item itemvalue="ECS on Alibaba Cloud.CloudRPCServer" />
+      <item itemvalue="ECS on Alibaba Cloud.CloudRPCClient" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RpcNettyClient" />
         <item itemvalue="Application.RpcServerMain" />
-        <item itemvalue="Application.com.banana.example.RpcClientMain" />
-        <item itemvalue="Application.RpcClientMain" />
+        <item itemvalue="Application.com.apple.example.RpcClientMain" />
+        <item itemvalue="Application.RpcServerMain" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +292,15 @@
       <workItem from="1728220522010" duration="202000" />
       <workItem from="1728220747298" duration="1694000" />
     </task>
+    <task id="LOCAL-00001" summary="更改pom.xml当中的warning">
+      <option name="closed" value="true" />
+      <created>1727443282533</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727443282533</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +316,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更改pom.xml当中的warning" />
+    <MESSAGE value="更改pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改pom.xml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

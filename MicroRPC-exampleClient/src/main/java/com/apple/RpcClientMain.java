@@ -1,4 +1,4 @@
-package com.apple.example;
+package com.apple;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
@@ -11,5 +11,6 @@ public class RpcClientMain {
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(RpcClientMain.class);
         TestController testController = (TestController) applicationContext.getBean("testController");
         testController.test();
+//        System.out.println("asd");
     }
 }
