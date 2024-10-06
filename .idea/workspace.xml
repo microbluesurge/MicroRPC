@@ -85,16 +85,6 @@
     </configuration>
     <configuration name="CloudRPCClient" type="ECS_RUN_CONFIGRATION" factoryName="Ecs configuration factory" singleton="false">
       <option name="accountModel" />
-      <option name="accountModels">
-        <list>
-          <AccountModel>
-            <option name="ak" value="LTAI5tS4JjYaKYbq9yd8ynWX" />
-            <option name="profileName" value="Default" />
-            <option name="secret" value="33gySuqhN6RBLIj6UIaNM1eTTgRM3H" />
-            <option name="show" value="false" />
-          </AccountModel>
-        </list>
-      </option>
       <option name="address" />
       <option name="afterCommand" value="sh /root/microrpc/run_microrpc.sh" />
       <option name="alreadyReset" value="true" />
@@ -149,16 +139,6 @@
     </configuration>
     <configuration name="CloudRPCServer" type="ECS_RUN_CONFIGRATION" factoryName="Ecs configuration factory" singleton="false">
       <option name="accountModel" />
-      <option name="accountModels">
-        <list>
-          <AccountModel>
-            <option name="ak" value="LTAI5tS4JjYaKYbq9yd8ynWX" />
-            <option name="profileName" value="Default" />
-            <option name="secret" value="33gySuqhN6RBLIj6UIaNM1eTTgRM3H" />
-            <option name="show" value="false" />
-          </AccountModel>
-        </list>
-      </option>
       <option name="address" />
       <option name="afterCommand" value="sh /root/microrpc/run_microrpc.sh" />
       <option name="alreadyReset" value="true" />
