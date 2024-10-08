@@ -6,10 +6,10 @@
   <artifactId>MicroRPC</artifactId>
   <version>1.0-SNAPSHOT</version>
   <modules>
-    <module>MicroRPC-framework</module>
-    <module>MicroRPC-exampleClient</module>
-    <module>MicroRPC-testApi</module>
-      <module>MicroRPC-exampleServer</module>
+    <module>p2pRPC-framework</module>
+    <module>p2pRPC-exampleClient</module>
+    <module>p2pRPC-testApi</module>
+      <module>p2pRPC-exampleServer</module>
   </modules>
   <packaging>pom</packaging>
 

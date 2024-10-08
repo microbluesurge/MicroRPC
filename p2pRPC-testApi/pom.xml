@@ -8,10 +8,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.test.api</groupId>
-    <artifactId>MicroRPC-testApi</artifactId>
+    <artifactId>p2pRPC-testApi</artifactId>
     <packaging>jar</packaging>
 
-    <name>MicroRPC-testApi</name>
+    <name>p2pRPC-testApi</name>
     <url>http://maven.apache.org</url>
 
     <properties>
