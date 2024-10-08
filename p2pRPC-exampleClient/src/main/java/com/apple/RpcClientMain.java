@@ -11,6 +11,5 @@ public class RpcClientMain {
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(RpcClientMain.class);
         TestController testController = (TestController) applicationContext.getBean("testController");
         testController.test();
-//        System.out.println("asd");
     }
 }
