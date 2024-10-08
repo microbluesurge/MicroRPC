@@ -1,6 +1,10 @@
-# MiCroRPC：微澜的RPC框架项目
-## 1.p2pRPC
+# p2pRPC
 客户端-服务器是点对点的结构
-
-## 2.RPC
-在p2pRPC基础之上，加上一层考虑服务器的选择机制，考虑负载均衡
+## p2pRPC-exampleServer
+提供RPC服务的服务器
+## p2pRPC-exampleClient
+使用RPC服务的客户端
+## p2pRPC-framework
+点对点的RPC架构的实现
+## p2pRPC-testApi
+RPC的注册中心，供p2pRPC-framework使用

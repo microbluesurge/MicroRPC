@@ -4,39 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b02a8269-9229-4d55-8372-ff84a3de372f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b02a8269-9229-4d55-8372-ff84a3de372f" name="Changes" comment="更改目录名称">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleClient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-exampleClient/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleClient/src/main/java/com/apple/RpcClientMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-exampleClient/src/main/java/com/apple/RpcClientMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleClient/src/main/java/com/apple/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-exampleClient/src/main/java/com/apple/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleClient/src/test/java/com/apple/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-exampleClient/src/test/java/com/apple/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-exampleServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleServer/src/main/java/com/orange/RpcServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-exampleServer/src/main/java/com/orange/RpcServerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleServer/src/main/java/com/orange/TestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-exampleServer/src/main/java/com/orange/TestServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-exampleServer/src/test/java/org/example/RpcServerMainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-exampleServer/src/test/java/org/example/RpcServerMainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-framework/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/P2pServiceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-framework/src/main/java/com/banana/P2pServiceProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/ServiceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-framework/src/main/java/com/banana/ServiceProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/annotations/RpcCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-framework/src/main/java/com/banana/annotations/RpcCall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/annotations/RpcService.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-framework/src/main/java/com/banana/annotations/RpcService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/client/RpcNettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-framework/src/main/java/com/banana/netty/client/RpcNettyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/client/RpcNettyClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-framework/src/main/java/com/banana/netty/client/RpcNettyClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/dto/RpcCallRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-framework/src/main/java/com/banana/netty/dto/RpcCallRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/dto/RpcCallResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-framework/src/main/java/com/banana/netty/dto/RpcCallResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/server/RpcNettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-framework/src/main/java/com/banana/netty/server/RpcNettyServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/netty/server/RpcNettyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-framework/src/main/java/com/banana/netty/server/RpcNettyServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/proxy/RpcProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-framework/src/main/java/com/banana/proxy/RpcProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/spring/RpcBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-framework/src/main/java/com/banana/spring/RpcBeanPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/main/java/com/banana/utils/SingletenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-framework/src/main/java/com/banana/utils/SingletenUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-framework/src/test/java/com/banana/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-framework/src/test/java/com/banana/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-testApi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-testApi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-testApi/src/main/java/com/test/api/ChengyuanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-testApi/src/main/java/com/test/api/ChengyuanService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-testApi/src/main/java/com/test/api/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-testApi/src/main/java/com/test/api/TestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroRPC-testApi/src/test/java/com/test/api/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/p2pRPC-testApi/src/test/java/com/test/api/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RPC" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -79,7 +54,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "Merging p2pRPC",
+    "git-widget-placeholder": "p2pRPC",
     "last_opened_file_path": "D:/WorkSpace/MicroRPC/MicroRpc-exampleServer",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
@@ -296,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727443282533</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更改目录名称">
+      <option name="closed" value="true" />
+      <created>1728348873363</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728348873363</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +299,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更改pom.xml当中的warning" />
     <MESSAGE value="更改pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改pom.xml" />
+    <MESSAGE value="更改目录名称" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改目录名称" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
