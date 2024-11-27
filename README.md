@@ -1,4 +1,4 @@
-# MiCroRPC：微澜的RPC框架项目
+# MiCroRPC：简单的RPC框架项目
 ## 1.p2pRPC
 客户端-服务器是点对点的结构
 
